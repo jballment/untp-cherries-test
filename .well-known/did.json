@@ -1,7 +1,25 @@
 {
-  "@context": [
-    "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/jws-2020/v1"
+  "did": "did:web:raw.githubusercontent.com:jballment:untp-cherries-test:master",
+  "controllerKeyId": "042226fe5e3dd3f917ebd9040787a6ae120f56b57f38cb48233457936a6e42e68ddcab90731c1d335f7feb092f896ead4000e8b6903673ad8fe32d8e7ce1590fe2",
+  "keys": [
+    {
+      "type": "Secp256k1",
+      "kid": "042226fe5e3dd3f917ebd9040787a6ae120f56b57f38cb48233457936a6e42e68ddcab90731c1d335f7feb092f896ead4000e8b6903673ad8fe32d8e7ce1590fe2",
+      "publicKeyHex": "042226fe5e3dd3f917ebd9040787a6ae120f56b57f38cb48233457936a6e42e68ddcab90731c1d335f7feb092f896ead4000e8b6903673ad8fe32d8e7ce1590fe2",
+      "meta": {
+        "algorithms": [
+          "ES256K",
+          "ES256K-R",
+          "eth_signTransaction",
+          "eth_signTypedData",
+          "eth_signMessage",
+          "eth_rawSign"
+        ]
+      },
+      "kms": "local"
+    }
   ],
-  "id": "did:web:raw.githubusercontent.com:jballment:untp-cherries-test:master"
+  "services": [],
+  "provider": "did:web",
+  "alias": "raw.githubusercontent.com:jballment:untp-cherries-test:master"
 }
